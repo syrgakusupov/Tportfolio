@@ -174,11 +174,24 @@ h2{
     height: 42vh;
     position: relative;
     background-color: #aaaaaa;
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.footer .contacts {
+    margin-left: 100px;
+}
+.footer .contacts h1{
+    color: #1C1D21;
+    font-size: 56px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer .contacts p{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 .footer img{
     position: absolute;
     right: 0;
     width: 200px;
-    
 }

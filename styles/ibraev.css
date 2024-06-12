@@ -109,6 +109,15 @@ body{
     position: absolute;
     left: 0;
     top: -100px;
+    animation: progre 20s linear infinite;
+}
+@keyframes progre {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
 }
 .block3{
     position: relative;
@@ -136,6 +145,17 @@ body{
     position: absolute;
     right: 0;
     top: -120px;
+    animation: progress 20s linear infinite;
+}
+
+
+@keyframes progress {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
 }
 .block4{
     display: flex;
@@ -165,6 +185,15 @@ body{
     position: absolute;
     left: 0;
     top: -100px;
+    animation: progres 20s linear infinite;
+}
+@keyframes progres {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .block5{
@@ -194,7 +223,21 @@ body{
     height: 42vh;
     position: relative;
     background-color: #aaaaaa;
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.footer .contacts {
+    margin-left: 100px;
+}
+.footer .contacts h1{
+    color: #1C1D21;
+    font-size: 56px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer .contacts p{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 .footer img{
     position: absolute;
